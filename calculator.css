@@ -1,0 +1,45 @@
+* {
+    font-size: 20px;
+    background: rgb(212, 220, 255);
+}
+
+.container {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+button {
+    border-radius: 50%;
+    border-width: 0.5px;
+    height: 50px;
+    width: 50px;
+    background: rgb(71, 105, 255);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background: rgb(84, 116, 255)
+}
+
+button:active{
+    background: rgb(95, 124, 255)
+}
+
+#clear-button {
+    border-radius: 0%;
+    height: 50px;
+    width: 70px;
+    display: block;
+}
+
+p {
+    display: block;
+    width: 50%;
+    margin: 12px auto;
+    padding: 0px;
+    /* border: 1px solid red; */
+}
